@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(165, 165, 236);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.head{
+  background-color: whitesmoke;
+  width: 30vw;
+  height: 80vh;
+  margin: auto;
+  margin-top: 10vh;
+  border-radius: 13px;
+  box-shadow: 4px 4px 8px grey;
+  overflow: hidden;
+}
+h1{
+  background-color: rgb(186, 72, 186);
+  color: white;
+  width: 100%;
+  height: 7vh;
+  text-align: center;
+  font-size: 40px;
+  }
+
+  input{
+   border: none;
+   
+   width: 300px;
+   height: 40px;
+   margin-left: 2vw;
+   border-radius: 5px;
+   background-color: rgb(249, 210, 242);
+   font-size: 20px;
+   text-align: center;
+   margin-right: 1vw;
+  }
+   .add{
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    background-color: blueviolet;
+    border: none;
+    width: 35px;
+    height: 33px;
+    font-size: 30px;
+    transition: 1s;
+  }
+  .add:hover{
+    background-color: green;
+  }
+  @media (max-width:1300px){
+    .head{
+      width: 400px;
+    }
+  }
+  .sub{
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: gray;
+    font-size: 20px;
+    transition: 1s;
+    
+    margin-left: 20px;
+    margin-right: 10px;
+    
+    margin-bottom: 5px;
+
+  }
+  .sub:hover{
+    background-color:red;
+  }
+  h3{
+    color: grey;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
